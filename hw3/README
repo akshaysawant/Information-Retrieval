@@ -1,0 +1,24 @@
+
+Instructions for running Homework 3 : 
+
+Before starting to run Homework 3 follow below instructions -
+1. Make sure to untar "hw3_data.tar" file.
+2. Make sure "pr1.py", "pr2.py" and "evaluation.py" files have executable permissions.
+
+
+Problem 1 : 
+1. Run using following command - 
+./pr1.py --method [Mean/WMean] --K [Number]
+
+Here, Number can be 3 or 5.
+
+Evaluation of Problem 1 - 
+1. Run using following command - 
+./evaluation.py HW3_data/dev.answers [Output dev file]
+
+
+Problem 2 : 
+1. Run using following command - 
+./pr2.py --method [Mean/WMean] --K [Number]
+
+Here, Number can be 3 or 5.

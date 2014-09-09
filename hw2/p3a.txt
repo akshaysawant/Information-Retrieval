@@ -1,0 +1,48 @@
+
+1. Search engine used is Google.com. The query searched is "world cup 2014".
+
+	Words		Actual Results
+	world		1,920,000,000
+	cup		457,000,000
+	2014		9,610,000,000
+	world cup	392,000,000
+	world 2014	8,450,000,000
+	cup 2014	2,120,000,000
+
+Using above values for world and cup,
+	Fworld = 1,920,000,000
+	Fcup = 457,000,000
+
+	Hence, N = Fworld * Fcup / Fworldcup
+	Hence, N = 1,920,000,000 * 457,000,000 / 392,000,000
+	Hence, N = 2238367346.94
+
+Using value of N to calculate Fest
+	Fest = (Fworld * Fcup * F2014) / N^2
+	Fest = 1,920,000,000 * 457,000,000 * 9,610,000,000 / (2238367346.94 * 2238367346.94)
+	Fest = 1,682,976,659.37
+Actual collection of results for the above query is 861,000,000.
+
+2. Search engine used is Google.com. The query searched is "folk singer awards".
+
+	Words		Actual Results
+	folk		104,000,000
+	singer		115,000,000
+	awards		287,000,000
+	folk singer	49,700,000
+	singer awards	70,200,000
+	folk awards	23,600,000
+
+Using above values for folk and singer,
+	Ffolk = 104,000,000
+	Fsinger = 115,000,000
+	
+	Hence, N = Ffolk * Fsinger / Ffolk,singer
+	Hence, N = 104,000,000 * 115,000,000 / 49,700,000
+	Hence, N = 240643863.179
+
+Using value of N to calculate Fest
+	Fest = (Ffolk * Fsinger * Fawards) / N^2
+	Fest = 104,000,000 * 115,000,000 * 287,000,000 / (240643863.179 * 240643863.179)
+	Fest = 59,273,898.8295
+Actual collection of results for the above query is 8,810,000.
