@@ -1,9 +1,0 @@
-p-value for AP is 0.0161051164955
-Okapi BM25 is better than Language Model with Jelinek-Mercer Smoothing for AP
-
-p-value for F1 is 0.164254016357
-Okapi BM25 and Language Model with Jelinek-Mercer Smoothing are not different for F1
-
-p-value for NDCG is 0.000134872936854
-Okapi BM25 is better than Language Model with Jelinek-Mercer Smoothing for NDCG
-
